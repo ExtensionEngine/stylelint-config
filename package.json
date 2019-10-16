@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "release": "npx np"
   },
   "repository": {
     "type": "git",
