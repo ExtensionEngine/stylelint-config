@@ -1,5 +1,5 @@
 {
-  "name": "@extensionengine/styelint-config",
+  "name": "@extensionengine/stylelint-config",
   "version": "0.0.0",
   "description": "Extension Engine's stylelint config",
   "main": "index.js",
