@@ -6,7 +6,7 @@
 
 # @extensionengine/stylelint-config
 
-[![circleci build status](https://badgen.net/circleci/github/ExtensionEngine/stylelint-config/master?icon)](https://circleci.com/gh/extensionengine/stylelint-config)
+[![circleci build status](https://badgen.net/circleci/github/ExtensionEngine/stylelint-config/master?icon)](https://circleci.com/gh/ExtensionEngine/stylelint-config)
 [![npm package version](https://badgen.net/npm/v/@extensionengine/stylelint-config)](https://npm.im/@extensionengine/stylelint-config)
 [![github license](https://badgen.net/github/license/extensionengine/stylelint-config)](https://github.com/extensionengine/stylelint-config/blob/master/LICENSE)
 [![js @extensionengine style](https://badgen.net/badge/code%20style/@extensionengine/black)](https://github.com/ExtensionEngine/eslint-config)
