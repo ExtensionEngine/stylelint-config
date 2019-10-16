@@ -38,7 +38,7 @@ In your local `stylelint.config.js` extend this configuration
 'use strict';
 
 module.exports = {
-  extends: '@extensionengine'
+  extends: '@extensionengine/stylelint-config'
 };
 ```
 
