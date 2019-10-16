@@ -1,6 +1,6 @@
 {
   "name": "@extensionengine/stylelint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Extension Engine's stylelint config",
   "main": "index.js",
   "scripts": {
