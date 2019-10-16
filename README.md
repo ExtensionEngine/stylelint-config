@@ -44,7 +44,6 @@ module.exports = {
 
 Check [stylelint documentation](https://stylelint.io/user-guide/rules) for rules explanation.
 
-
 ### Badge
 
 If you are using this config in your project you can include this badge in a
