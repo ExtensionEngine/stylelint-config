@@ -56,6 +56,6 @@
     "stylelint": ">=11.0.0"
   },
   "files": [
-    "index.js"
+    "rules"
   ]
 }
