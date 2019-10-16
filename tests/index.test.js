@@ -7,7 +7,7 @@ const stylelint = require('stylelint');
 const validCss = fs.readFileSync('./tests/valid.css', 'utf-8');
 const invalidCss = fs.readFileSync('./tests/invalid.css', 'utf-8');
 
-describe('flags no warnings with valid css', () => {
+describe('reports no warnings for valid css', () => {
   let result;
 
   beforeEach(() => {
@@ -23,14 +23,14 @@ describe('flags no warnings with valid css', () => {
     ));
   });
 
-  it('flags no warnings', () => {
+  it('reports no warnings', () => {
     return result.then(data => (
       expect(data.results[0].warnings).toHaveLength(0)
     ));
   });
 });
 
-describe('flags warnings with invalid css', () => {
+describe('reports warnings for invalid css', () => {
   let result;
 
   beforeEach(() => {
@@ -46,13 +46,13 @@ describe('flags warnings with invalid css', () => {
     ));
   });
 
-  it('flags one warning', () => {
+  it('reports one warning', () => {
     return result.then(data => (
       expect(data.results[0].warnings).toHaveLength(1)
     ));
   });
 
-  it('correct warning text', () => {
+  it('with correct warning text', () => {
     return result.then(data => (
       expect(data.results[0].warnings[0].text).toBe('Expected "display" to come before "position" (order/properties-order)')
     ));
