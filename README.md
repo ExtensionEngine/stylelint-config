@@ -8,7 +8,7 @@
 
 [![circleci build status](https://badgen.net/circleci/github/ExtensionEngine/stylelint-config/master?icon)](https://circleci.com/gh/ExtensionEngine/stylelint-config)
 [![npm package version](https://badgen.net/npm/v/@extensionengine/stylelint-config)](https://npm.im/@extensionengine/stylelint-config)
-[![github license](https://badgen.net/github/license/extensionengine/stylelint-config)](https://github.com/extensionengine/stylelint-config/blob/master/LICENSE)
+[![github license](https://badgen.net/github/license/ExtensionEngine/stylelint-config)](https://github.com/ExtensionEngine/stylelint-config/blob/master/LICENSE)
 [![js @extensionengine style](https://badgen.net/badge/code%20style/@extensionengine/black)](https://github.com/ExtensionEngine/eslint-config)
 
 This package provides Extension Engine's extensible stylelint config.
@@ -50,8 +50,8 @@ Check [stylelint documentation](https://stylelint.io/user-guide/rules) for rules
 If you are using this config in your project you can include this badge in a
 readme to let people know that your code is using it.
 
-[![js @extensionengine style](https://badgen.net/badge/stylelint/@extensionengine/black)](https://github.com/ExtensionEngine/stylelint-config)
+[![style @extensionengine style](https://badgen.net/badge/stylelint/@extensionengine/black)](https://github.com/ExtensionEngine/stylelint-config)
 
 ```markdown
-[![js @extensionengine style](https://badgen.net/badge/stylelint/@extensionengine/black)](https://github.com/ExtensionEngine/stylelint-config)
+[![style @extensionengine style](https://badgen.net/badge/stylelint/@extensionengine/black)](https://github.com/ExtensionEngine/stylelint-config)
 ```
