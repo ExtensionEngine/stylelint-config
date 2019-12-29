@@ -1,39 +1,39 @@
 {
-  "publishConfig": {
-    "access": "public"
-  },
   "name": "@extensionengine/stylelint-config",
   "version": "1.1.0",
   "description": "Extension Engine's stylelint config",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "lint": "eslint .",
-    "release": "npx np"
+  "keywords": [
+    "config",
+    "css",
+    "lint",
+    "sass",
+    "scss",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "homepage": "https://github.com/ExtensionEngine/stylelint-config#readme",
+  "bugs": {
+    "url": "https://github.com/ExtensionEngine/stylelint-config/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ExtensionEngine/stylelint-config.git"
   },
-  "keywords": [
-    "stylelint",
-    "stylelint-config",
-    "lint",
-    "css",
-    "scss",
-    "sass",
-    "config"
-  ],
+  "license": "MIT",
   "author": {
     "name": "Extension Engine",
     "email": "info@extensionengine.com",
     "url": "https://extensionengine.com"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ExtensionEngine/stylelint-config/issues"
+  "files": [
+    "rules"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "release": "npx np",
+    "test": "jest"
   },
-  "homepage": "https://github.com/ExtensionEngine/stylelint-config#readme",
   "dependencies": {
     "stylelint-config-standard": "^19.0.0",
     "stylelint-order": "^3.1.1",
@@ -59,7 +59,7 @@
   "peerDependencies": {
     "stylelint": ">=11.0.0"
   },
-  "files": [
-    "rules"
-  ]
+  "publishConfig": {
+    "access": "public"
+  }
 }
