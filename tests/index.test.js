@@ -54,7 +54,7 @@ describe('reports warnings for invalid css', () => {
 
   it('with correct warning text', () => {
     return result.then(data => (
-      expect(data.results[0].warnings[0].text).toBe('Expected "display" to come before "position" (order/properties-order)')
+      expect(data.results[0].warnings[0].text).toBe('Expected "position" to come before "display" (order/properties-order)')
     ));
   });
 });

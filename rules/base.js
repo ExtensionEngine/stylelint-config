@@ -15,39 +15,69 @@ module.exports = {
     }],
     'function-comma-space-after': null,
     'order/properties-order': [
+      // NOTE: Order is inspired by general rules from https://9elements.com/css-rule-order
+      // Generated content
       'content',
-      'display',
+
+      // Position and layout
       'position',
+      'z-index',
       'top',
       'right',
       'bottom',
       'left',
+      'float',
+
+      // Display and visibility
+      'display',
+      'opacity',
       'transform',
+
+      // Clipping
+      'overflow',
+      'clip',
+
+      // Animation
+      'animation',
+      'transition',
+
+      // Box model
+      'margin',
+      'margin-top',
+      'margin-right',
+      'margin-bottom',
+      'margin-left',
+      'box-shadow',
+      'border',
+      'border-radius',
+      'box-sizing',
       'width',
       'min-width',
       'max-width',
       'height',
       'min-height',
       'max-height',
-      'margin',
-      'margin-top',
-      'margin-right',
-      'margin-bottom',
-      'margin-left',
       'padding',
       'padding-top',
       'padding-right',
       'padding-bottom',
       'padding-left',
-      'color',
-      'font-size',
-      'font-weight',
-      'line-height',
-      'text-transform',
+
+      // Background
       'background',
       'background-color',
-      'border',
-      'cursor'
+      'cursor',
+
+      // Typography
+      'font-size',
+      'line-height',
+      'font-family',
+      'font-weight',
+      'font-style',
+      'text-align',
+      'text-transform',
+      'word-spacing',
+      'color'
     ]
   }
 };
