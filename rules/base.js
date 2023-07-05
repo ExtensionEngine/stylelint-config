@@ -9,7 +9,6 @@ module.exports = {
       ignore: ['after-comment', 'inside-block']
     }],
     'function-name-case': 'lower',
-    'selector-list-comma-newline-after': 'never-multi-line',
     'selector-pseudo-element-no-unknown': [true, {
       ignorePseudoElements: ['v-deep']
     }],
