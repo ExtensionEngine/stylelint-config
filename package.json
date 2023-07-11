@@ -41,9 +41,9 @@
     "stylelint-order": "^6.0.3"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.22.6",
+    "@babel/eslint-parser": "^7.22.7",
     "@babel/eslint-plugin": "^7.22.5",
-    "@extensionengine/eslint-config": "^3.0.1",
+    "@extensionengine/eslint-config": "^4.0.0",
     "@types/stylelint": "^13.13.3",
     "eslint": "^8.44.0",
     "eslint-config-semistandard": "^17.0.0",
@@ -54,14 +54,14 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-standard": "^4.1.0",
     "eslint-plugin-vue": "^9.15.1",
-    "jest": "^29.6.0",
+    "jest": "^29.6.1",
     "jest-preset-stylelint": "^6.1.0",
-    "stylelint": "^15.10.0"
+    "stylelint": "^15.10.1"
   },
   "peerDependencies": {
     "postcss-html": ">=1.5.0",
     "postcss-scss": ">=4.0.6",
-    "stylelint": ">=15.10.0"
+    "stylelint": ">=15.10.1"
   },
   "publishConfig": {
     "access": "public"
