@@ -15,11 +15,19 @@ license](https://badgen.net/github/license/ExtensionEngine/stylelint-config)](ht
 [![js @extensionengine
 style](https://badgen.net/badge/code%20style/@extensionengine/black)](https://github.com/ExtensionEngine/eslint-config)
 
-This package provides Extension Engine's extensible stylelint config.
+This package provides Extension Engine's extensible Stylelint config.
 
 ## Usage
 
-Configuration supports `css` and `scss`.
+Package contains two shared Stylelint configs:
+
+### @extensionengine/stylelint-config
+
+This is default configuration supporting `css`, `scss` and Vue.
+
+### @extensionengine/stylelint-config/base
+
+This is base configuration without Vue specific rules.
 
 ### Install
 
@@ -32,7 +40,7 @@ npx install-peerdeps -D @extensionengine/stylelint-config
 or the classic way:
 
 ```
-npm install --save-dev stylelint @extensionengine/stylelint-config
+npm install --save-dev postcss-html postcss-scss stylelint @extensionengine/stylelint-config
 ```
 
 ### Using `@extensionengine/stylelint-config` in your project
@@ -44,6 +52,16 @@ In your local `stylelint.config.js` extend this configuration
 
 module.exports = {
   extends: '@extensionengine/stylelint-config'
+};
+```
+
+If you don't need Vue you can use base configuration:
+
+```js
+'use strict';
+
+module.exports = {
+  extends: '@extensionengine/stylelint-config/base'
 };
 ```
 
